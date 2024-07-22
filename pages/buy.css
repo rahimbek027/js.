@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: system-ui;
+}
+
+body {
+  background-color: rgb(230, 227, 223);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .container {
+  margin-top: 150px;
+  width: 300px;
+  padding-inline: 15px;
+  background-color: white;
+  padding-block: 20px;
+  border-radius: 10px;
+}
+body .container input {
+  width: 270px;
+  height: 40px;
+  font-size: 16px;
+  border-radius: 10px rgb(81, 79, 79);
+}
+body .container p {
+  font-size: 24px;
+  font-weight: 600;
+  margin-block-end: 10px;
+}
+body .container .send {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .container .send a {
+  text-decoration: none;
+  color: white;
+}
+body .container .send button {
+  width: 150px;
+  background-color: blue;
+  height: 40px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  margin-block-start: 25px;
+}/*# sourceMappingURL=buy.css.map */
